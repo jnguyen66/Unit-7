@@ -1,0 +1,8 @@
+a. Using new Date(), creates a new date object with the current date and time
+with the following format: DayOfWeek Month Date Year Time Timezone.
+
+b. New Date(2009, 0, 20) produces a new date on Tuesday January 20, 2009 00:00:00 GMT -0800 (Pacific Standard Time)
+
+c. The valueOf() method returns the primitive value of a Date object representing the number of 
+milliseconds between the date object and midnight January 1, 1970 UTC. Therefore the expression 
+d1. valueOf() - d2. valueOf() will give the difference in millisecond between the two.
